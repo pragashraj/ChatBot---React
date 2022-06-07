@@ -6,7 +6,7 @@ import {Card, CardContent, Paper} from '@mui/material'
 
 import ActionProvider from './ActionProvider'
 import MessageParser from './MessageParser'
-import Config from './Config'
+import config from './config'
 
 import './ChatBot.css'
 
@@ -15,12 +15,12 @@ class ChatBotV1 extends Component {
     return (
       <div className = 'chatbot-root'>
         <Paper elevation = {6}>
-          <Card sx = {{ width: 440, height: 550 }}>
+          <Card>
             <CardContent>
               <Chatbot 
-                config = {Config} 
-                actionProvider = {ActionProvider} 
-                messageParser = {MessageParser} 
+                config = {config}
+                actionProvider = {ActionProvider}
+                messageParser = {MessageParser}
               />
             </CardContent>
           </Card>

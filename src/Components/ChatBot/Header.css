@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-container-title {
+    margin-left: 10px;
+}
+
+.header-container-title-span {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+}

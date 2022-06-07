@@ -1,18 +1,30 @@
 class ActionProvider {
-    constructor(
-     createChatBotMessage,
-     setStateFunc,
-     createClientMessage,
-     stateRef,
-     createCustomMessage,
-     ...rest
-   ) {
-     this.createChatBotMessage = createChatBotMessage;
-     this.setState = setStateFunc;
-     this.createClientMessage = createClientMessage;
-     this.stateRef = stateRef;
-     this.createCustomMessage = createCustomMessage;
-   }
+  constructor(createChatBotMessage, setStateFunc) {
+    this.createChatBotMessage = createChatBotMessage
+    this.setState = setStateFunc
+  }
+  
+  greet() {
+    const greetingMessage = this.createChatBotMessage("Hi, friend.")
+    this.updateChatbotState(greetingMessage)
+  }
+  
+  updateChatbotState(message) { 
+    this.setState(prevState => ({
+    	...prevState, messages: [...prevState.messages, message]
+    }))
+  }
+
+  handleJavascriptList = () => {
+    const message = this.createChatBotMessage(
+      "Fantastic, I've got the following resources for you on Javascript:",
+      {
+        widget: "javascriptLinks",
+      }
+    )
+
+    this.updateChatbotState(message)
+  }
 }
  
 export default ActionProvider
