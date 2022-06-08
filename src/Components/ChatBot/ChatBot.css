@@ -20,19 +20,15 @@
 }
 
 .react-chatbot-kit-chat-input {
-    background-color: tomato;
+    width: 500px;
 }
 
 .react-chatbot-kit-chat-input-form {
-    background-color: darkred;
-}
-
-.react-chatbot-kit-chat-input::placeholder {
-    color: aliceblue;
+    display: flex;
 }
 
 .react-chatbot-kit-chat-btn-send {
-    background-color: darkblue;
+    border: none;
 }
 
 .react-chatbot-kit-chat-btn-send-icon {
