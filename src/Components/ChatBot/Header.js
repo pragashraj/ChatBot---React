@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { Grid, IconButton, Avatar, Box } from '@mui/material'
+import { Grid, IconButton, Box } from '@mui/material'
 import { Menu } from '@mui/icons-material'
-import { deepOrange } from '@mui/material/colors'
 
 import './Header.css'
+import chatbotLogo from '../../assets/images/logo.png'
 
 const Header = () => {
 
@@ -21,7 +21,7 @@ const Header = () => {
     const renderHeaderTitle = () => {
         return (
             <div className = "header-container">
-                <Avatar sx={{ bgcolor: deepOrange[500] }}>CB</Avatar>
+                <img src = {chatbotLogo} alt = "logo" className = 'chat-bot-logo'/>
                 <div className = "header-container-title">
                     <span className = "header-container-title-span">This is a Chat-bot</span>
                 </div>

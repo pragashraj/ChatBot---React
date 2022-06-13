@@ -1,5 +1,7 @@
 import { createChatBotMessage } from "react-chatbot-kit"
 
+import { Avatar } from '@mui/material'
+
 import LearningOptions from "./LearningOptions"
 import LinkList from "./LinkList"
 
@@ -12,14 +14,8 @@ const config = {
   )],
   customComponents: {
     header: () => <Header/>,
-  },
-  customStyles: {
-    botMessageBox: {
-      backgroundColor: "#376B7E",
-    },
-    chatButton: {
-      backgroundColor: "#376B7E",
-    },
+    botAvatar: () => <Avatar sx = {{width: "20px", height: "20px", padding: "5px"}}>B</Avatar>,
+    userAvatar: (props) => <Avatar>S</Avatar>
   },
   widgets: [
     {
