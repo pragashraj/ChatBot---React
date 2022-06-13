@@ -4,7 +4,7 @@ import { Grid, IconButton, Box } from '@mui/material'
 import { Menu } from '@mui/icons-material'
 
 import './Header.css'
-import chatbotLogo from '../../assets/images/logo.png'
+import chatbotLogo from '../../../assets/images/logo.png'
 
 const Header = () => {
 

@@ -4,9 +4,9 @@ import Chatbot from 'react-chatbot-kit'
 
 import {Card, CardContent, Paper} from '@mui/material'
 
-import ActionProvider from './ActionProvider'
-import MessageParser from './MessageParser'
-import config from './config'
+import ActionProvider from './Utills/ActionProvider'
+import MessageParser from './Utills/MessageParser'
+import config from './Utills/config'
 
 import './ChatBot.css'
 

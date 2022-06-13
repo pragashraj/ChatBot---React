@@ -1,0 +1,20 @@
+.bot-chat-message-root {
+    margin-left: 15px;
+}
+
+.bot-chat-message-container {
+    background-color: #E5E8E8; 
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 20px; 
+    margin-left: 20px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px 0 #0000001a;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+.bot-chat-message-text {
+    font-weight: 500;
+}
