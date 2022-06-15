@@ -3,6 +3,7 @@ import { createChatBotMessage } from "react-chatbot-kit"
 import Header from "../Header/Header"
 import BotAvatar from "../BotAvatar/BotAvatar"
 import BotChatMessage from "../BotChatMessage/BotChatMessage"
+import UserAvatar from "../UserAvatar/UserAvatar"
 
 const config = { 
   botName: "Chat-Bot",
@@ -11,6 +12,7 @@ const config = {
     header: () => <Header/>,
     botAvatar: () => <BotAvatar/>,
     botChatMessage: (props) => <BotChatMessage props = {props} />,
+    userAvatar: () => <UserAvatar/>,
   }
 }
 
