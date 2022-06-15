@@ -1,14 +1,17 @@
 .bot-chat-message-root {
     margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .bot-chat-message-container {
-    background-color: #E5E8E8; 
+    background-color: #EEE; 
     border-top-left-radius: 0px; 
-    border-top-right-radius: 20px; 
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     margin-left: 20px;
     align-items: center;
-    border-radius: 20px;
     box-shadow: 0 12px 24px 0 #0000001a;
     display: flex;
     margin-bottom: 10px;

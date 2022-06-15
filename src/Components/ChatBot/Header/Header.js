@@ -30,7 +30,7 @@ const Header = () => {
     }
 
     return (
-        <div>
+        <div className = 'header-root'>
             <Grid container>
                 <Grid item xs = {10} md = {11}>
                     { renderHeaderTitle() }

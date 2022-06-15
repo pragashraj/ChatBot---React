@@ -4,6 +4,7 @@ import Header from "../Header/Header"
 import BotAvatar from "../BotAvatar/BotAvatar"
 import BotChatMessage from "../BotChatMessage/BotChatMessage"
 import UserAvatar from "../UserAvatar/UserAvatar"
+import UserChatMessage from "../UserChatMessage/UserChatMessage"
 
 const config = { 
   botName: "Chat-Bot",
@@ -13,6 +14,7 @@ const config = {
     botAvatar: () => <BotAvatar/>,
     botChatMessage: (props) => <BotChatMessage props = {props} />,
     userAvatar: () => <UserAvatar/>,
+    userChatMessage: (props) => <UserChatMessage props = {props} />
   }
 }
 

@@ -1,0 +1,23 @@
+.user-chat-message-root {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.user-chat-message-container {
+    background: #EEE;
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    align-items: center;
+    box-shadow: 0 12px 24px 0 #0000001a;
+    display: flex;
+    padding: 12px;
+}
+
+.user-chat-message-text {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}

@@ -7,13 +7,6 @@
     justify-content: center;
 }
 
-.react-chatbot-kit-chat-header {
-    /* background-color: yellow; */
-}
-
-.react-chatbot-kit-chat-input-container {
-}
-
 .react-chatbot-kit-chat-message-container {
     margin-top: 15px;
     padding: 5px;
@@ -42,8 +35,15 @@
     width: 100%;
 }
 
+.react-chatbot-kit-user-chat-message-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .react-chatbot-kit-chat-bot-avatar-container {
-    /* background-color: rgb(123, 119, 119); */
+    background-color: rgb(123, 119, 119);
 }
 
 .react-chatbot-kit-chat-bot-avatar-icon {
