@@ -8,7 +8,7 @@ import UserChatMessage from "../UserChatMessage/UserChatMessage"
 
 const config = { 
   botName: "Chat-Bot",
-  initialMessages: [createChatBotMessage("Hi, I'm here to help. What do you want to learn?")],
+  initialMessages: [createChatBotMessage("Hi, I'm here to help. What can we help you with today?")],
   customComponents: {
     header: () => <Header/>,
     botAvatar: () => <BotAvatar/>,

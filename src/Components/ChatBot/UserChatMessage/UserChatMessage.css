@@ -6,7 +6,7 @@
 }
 
 .user-chat-message-container {
-    background: #EEE;
+    background: rgb(255, 255, 255);
     border-top-left-radius: 30px; 
     border-top-right-radius: 0px; 
     border-bottom-right-radius: 30px;

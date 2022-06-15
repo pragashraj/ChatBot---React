@@ -1,11 +1,11 @@
 .bot-chat-message-root {
-    margin-left: 15px;
+    margin-left: -3px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .bot-chat-message-container {
-    background-color: #EEE; 
+    background-color: rgb(255, 255, 255); 
     border-top-left-radius: 0px; 
     border-top-right-radius: 30px; 
     border-bottom-right-radius: 30px;

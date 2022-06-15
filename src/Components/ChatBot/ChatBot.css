@@ -7,15 +7,25 @@
     justify-content: center;
 }
 
+.react-chatbot-kit-chat-container {
+    max-height: 70vh;
+    min-width: 20vw;
+}
+
 .react-chatbot-kit-chat-message-container {
     margin-top: 15px;
     padding: 5px;
     margin-bottom: 15px;
+    background-color: #eee;
 }
 
 .react-chatbot-kit-chat-input {
     width: 100%;
     border: none;
+}
+
+.react-chatbot-kit-chat-input:focus{
+    outline: none;
 }
 
 .react-chatbot-kit-chat-input-form {
