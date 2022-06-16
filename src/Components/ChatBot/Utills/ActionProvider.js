@@ -5,7 +5,7 @@ class ActionProvider {
   }
   
   greet() {
-    const greetingMessage = this.createChatBotMessage("Hi, friend.")
+    const greetingMessage = this.createChatBotMessage("Hi, friend.", {delay: 500})
     this.updateChatbotState(greetingMessage)
   }
   
@@ -28,7 +28,8 @@ class ActionProvider {
     const message = this.createChatBotMessage(
       "Fantastic, I've got the following resources for you on Javascript:",
       {
-        widget: "javascriptLinks"
+        widget: "javascriptLinks",
+        delay: 500,
       }
     )
 
