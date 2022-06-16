@@ -17,7 +17,8 @@ class ActionProvider {
 
   handleLanguageOnTyped = () => {
     const message = this.createChatBotMessage(
-      "Fantastic, I've got the following resources for you on languages:"
+      "Fantastic, I've got the following resources for you on languages:",
+      { widget: "learningOptions" }
     )
 
     this.updateChatbotState(message)

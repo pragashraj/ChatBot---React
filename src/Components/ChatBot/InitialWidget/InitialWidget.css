@@ -1,0 +1,12 @@
+.initial-widget-root {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.initial-widget-span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.7rem;
+}

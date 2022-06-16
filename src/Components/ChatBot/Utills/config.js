@@ -6,11 +6,12 @@ import BotChatMessage from "../BotChatMessage/BotChatMessage"
 import UserAvatar from "../UserAvatar/UserAvatar"
 import UserChatMessage from "../UserChatMessage/UserChatMessage"
 import LearningOptions from "../LearningOptions/LearningOptions"
+import InitialWidget from "../InitialWidget/InitialWidget"
 
 const config = { 
   botName: "Chat-Bot",
   initialMessages: [createChatBotMessage("Hi, I'm here to help. What can we help you with today?", {
-    widget: "learningOptions",
+    widget: "initialWidget"
   })],
   customComponents: {
     header: () => <Header/>,
@@ -23,6 +24,10 @@ const config = {
     {
       widgetName: "learningOptions",
       widgetFunc: (props) => <LearningOptions {...props} />,
+    },
+    {
+      widgetName: "initialWidget",
+      widgetFunc: () => <InitialWidget/>,
     },
   ],
 }

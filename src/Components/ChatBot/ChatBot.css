@@ -8,19 +8,17 @@
 }
 
 .react-chatbot-kit-chat-container {
-    max-height: 70vh;
     min-width: 20vw;
 }
 
 .react-chatbot-kit-chat-message-container {
     margin-top: 15px;
-    padding: 5px;
-    margin-bottom: 15px;
+    padding: 3px;
     background-color: #eee;
+    overflow-y: auto;
 }
 
 .react-chatbot-kit-chat-input {
-    width: 100%;
     border: none;
 }
 
