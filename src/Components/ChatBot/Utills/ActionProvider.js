@@ -15,11 +15,19 @@ class ActionProvider {
     }))
   }
 
-  handleJavascriptList = () => {
+  handleLanguageOnTyped = () => {
     const message = this.createChatBotMessage(
-      "Fantastic, I've got the following resources for you on Javascript:",
+      "Fantastic, I've got the following resources for you on languages:"
+    )
+
+    this.updateChatbotState(message)
+  }
+
+  handleJavaOnClick = () => {
+    const message = this.createChatBotMessage(
+      "Fantastic, I've got the following resources for you on Java:",
       {
-        widget: "javascriptLinks",
+        widget: "javascriptLinks"
       }
     )
 

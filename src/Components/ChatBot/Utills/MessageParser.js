@@ -9,6 +9,10 @@ class MessageParser {
       if (lowerCaseMessage.includes("hi")) {
         this.actionProvider.greet()
       }
+      
+      if (lowerCaseMessage.includes("languages")) {
+        this.actionProvider.handleLanguageOnTyped()
+      }
   
       if (lowerCaseMessage.includes("javascript")) {
         this.actionProvider.handleJavascriptList()
