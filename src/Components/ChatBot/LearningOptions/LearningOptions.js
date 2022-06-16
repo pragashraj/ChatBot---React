@@ -6,10 +6,10 @@ import "./LearningOptions.css"
 
 const LearningOptions = (props) => {
     const options = [
-        { text: "Java", handler: props.actionProvider.handleJavaOnClick, id: 1 },
+        { text: "Javascript", handler: props.actionProvider.handleJavascriptOnClick, id: 1 },
         { text: "Kotlin", handler: () => {}, id: 2 },
         { text: "Python", handler: () => {}, id: 3 },
-        { text: "Javascript", handler: () => {}, id: 4 }
+        { text: "Java", handler: () => {}, id: 4 }
     ]
 
     const renderOption = (option) => {

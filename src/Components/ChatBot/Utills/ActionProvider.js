@@ -17,16 +17,16 @@ class ActionProvider {
 
   handleLanguageOnTyped = () => {
     const message = this.createChatBotMessage(
-      "Fantastic, I've got the following resources for you on languages:",
+      "Great, What do you want learn?",
       { widget: "learningOptions" }
     )
 
     this.updateChatbotState(message)
   }
 
-  handleJavaOnClick = () => {
+  handleJavascriptOnClick = () => {
     const message = this.createChatBotMessage(
-      "Fantastic, I've got the following resources for you on Java:",
+      "Fantastic, I've got the following resources for you on Javascript:",
       {
         widget: "javascriptLinks"
       }
